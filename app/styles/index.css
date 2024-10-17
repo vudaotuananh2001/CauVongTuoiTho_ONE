@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+header .banner-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .banner-header .infor-dayOffWeek {
+  font-size: 16px;
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .banner-header .infor-dayOffWeek .dayOfWeek {
+  font-family: "Be Vietnam";
+  display: flex;
+  align-items: center;
+}
+header .banner-header .infor-dayOffWeek .dayOfWeek .fas {
+  padding-right: 6px;
+  color: #666666;
+}
+header .banner-header .infor-dayOffWeek .dayOfWeek p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+header .banner-header .weather {
+  font-family: "Be Vietnam";
+  font-size: 16px;
+  width: 242px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #1B75BC;
+  padding: 5px;
+  border-radius: 7px;
+}
+header .banner-header .weather b {
+  font-weight: bold;
+  color: #1B75BC;
+}
+header .banner-header .weather .sun {
+  color: #FFC700;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: #FFFAC2;
+  display: flex;
+  align-items: center;
+  border: 1px solid #FFF047;
+}
+nav .sider-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .sider-bar .home {
+  box-shadow: 0px 4px 2px #9E9205;
+  border-radius: 5px;
+}
+nav .sider-bar .home a {
+  color: black;
+  display: inline-block;
+}
+nav .sider-bar .home a .fas {
+  padding: 6px;
+  border: 1px solid #9E9205;
+  border-radius: 5px;
+  background-color: #FFF047;
+}
+nav .sider-bar .home:hover {
+  color: black;
+}
+nav .sider-bar ul {
+  display: flex;
+  align-items: center;
+  font-family: "Be Vietnam";
+  font-size: 17px;
+}
+nav .sider-bar ul li {
+  margin-top: 13px;
+  list-style: none;
+  border-right: 1px solid #E5E1AF;
+  padding-right: 10px;
+}
+nav .sider-bar ul li a {
+  text-decoration: none;
+}
+nav .sider-bar ul li:hover a {
+  text-decoration: none;
+}
+nav .sider-bar ul li:nth-child(1) a {
+  color: red;
+}
+nav .sider-bar ul li:nth-child(2) a {
+  color: #1B75BC;
+}
+nav .sider-bar ul li:nth-child(3) a {
+  color: #E6B300;
+}
+nav .sider-bar ul li:nth-child(4) a {
+  color: #00BA36;
+}
+nav .sider-bar ul li:nth-child(5) a {
+  color: #10A5E8;
+}
+nav .sider-bar ul li:nth-child(6) a {
+  color: #0D0898;
+}
+nav .sider-bar ul li:nth-child(7) a {
+  color: #890CC2;
+}
+nav .sider-bar ul :last-child {
+  border-right: none;
+}
+nav .sider-bar ul :first-child {
+  margin-left: 10px;
+}
+nav .sider-bar .multimedia {
+  border: 1px solid #1B75BC;
+  padding: auto;
+  border-radius: 5px;
+  box-shadow: 0px 4px 2px #1B75BC;
+}
+nav .sider-bar .multimedia a {
+  padding: 3px;
+  text-decoration: none;
+  display: inline-block;
+  color: #1B75BC;
+  font-weight: bold;
+  font-size: 15px;
+}
+nav .sider-bar .multimedia a .fas {
+  padding-right: 3px;
+}
+
+.box-body {
+  background: linear-gradient(180deg, #FFFFFF 0%, #E9F5FF 100%);
+  width: 100%;
+  height: auto;
+}
+.box-body .hagtag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: "Be Vietnam";
+  height: 27px;
+}
+.box-body .hagtag .trendding .fas {
+  padding: 5px;
+  background-color: #DAEFFF;
+  border-radius: 20px;
+  color: #1B75BC;
+  margin-right: 10px;
+}
+.box-body .hagtag .trendding span {
+  font-size: 13px;
+}
+.box-body .hagtag a {
+  text-decoration: none;
+  font-size: 13px;
+}
+.box-body .content .is-content-left a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  height: 278px;
+  position: relative;
+}
+.box-body .content .is-content-left a img {
+  width: 100%;
+  height: 73%;
+  position: relative;
+}
+.box-body .content .is-content-left a p {
+  font-size: 17px;
+  font-weight: 700;
+  position: absolute;
+  width: 100%;
+  height: 68%;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 20px;
+  padding-right: 15px;
+  border-radius: 0 0 15px 15px;
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  font-family: "Be Vietnam";
+  font-weight: 700;
+  background: linear-gradient(180deg, rgba(80, 41, 134, 0) 14.54%, #502986 50%);
+}
+.box-body .content .is-content-center a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  height: 278px;
+  position: relative;
+}
+.box-body .content .is-content-center a img {
+  width: 100%;
+  height: 73%;
+  position: relative;
+  height: 100%;
+}
+.box-body .content .is-content-center a p {
+  font-size: 17px;
+  font-weight: 700;
+  position: absolute;
+  width: 100%;
+  height: 68%;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 20px;
+  padding-right: 15px;
+  border-radius: 0 0 15px 15px;
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  font-family: "Be Vietnam";
+  font-weight: 700;
+  background: linear-gradient(180deg, rgba(255, 98, 0, 0) 48.56%, #FF6200 90.68%);
+}
+.box-body .content .is-content-right a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  height: 278px;
+  position: relative;
+}
+.box-body .content .is-content-right a img {
+  width: 100%;
+  height: 73%;
+  position: relative;
+}
+.box-body .content .is-content-right a p {
+  font-size: 17px;
+  font-weight: 700;
+  position: absolute;
+  width: 100%;
+  height: 68%;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 20px;
+  padding-right: 15px;
+  border-radius: 0 0 15px 15px;
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  font-family: "Be Vietnam";
+  font-weight: 700;
+  background: linear-gradient(180deg, rgba(19, 174, 142, 0) 14.54%, #13AE8E 50%);
+}/*# sourceMappingURL=index.css.map */
