@@ -34,6 +34,7 @@
     color: white;
     font-family: 'Be Vietnam';
     font-weight: 700;
+    padding-bottom: 10px;
 }
 
 header {
@@ -215,7 +216,8 @@ nav {
 .box-body {
     background: linear-gradient(180deg, #FFFFFF 0%, #E9F5FF 100%);
     width: 100%;
-    height: auto;
+    padding-bottom: 27px;
+    border-bottom: 1px solid #92CFFF;
 
     .hagtag {
         display: flex;
@@ -269,6 +271,7 @@ nav {
 
                 img {
                     @include widthImg;
+                    border-radius: 15px 15px 15px 15px;
                     height: 100%;
                 }
 
@@ -297,5 +300,512 @@ nav {
                 }
             }
         }
+    }
+
+    .detail {
+        .is-detail-content {
+            a {
+                @include styleA;
+
+                img {
+                    @include widthImg;
+                }
+
+                p {
+                    font-size: 17px;
+                    font-weight: 700;
+                    @include positionByP;
+                }
+            }
+        }
+
+        .is-detail-content:nth-child(1) a p {
+            background: linear-gradient(180deg, rgba(66, 133, 244, 0) 14.54%, #4285F4 50%);
+        }
+
+        .is-detail-content:nth-child(2) a p {
+            background: linear-gradient(180.44deg, rgba(236, 197, 48, 0) 22.93%, #ECC530 50.02%);
+        }
+
+        .is-detail-content:nth-child(3) a img {
+            border-radius: 15px;
+        }
+
+        .is-detail-content:nth-child(3) a p {
+            background: linear-gradient(180deg, rgba(46, 176, 227, 0) 32.12%, #2EB0E3 59.67%);
+        }
+
+        .is-detail-content:nth-child(4) a p {
+            background: linear-gradient(180deg, rgba(13, 8, 152, 0) 14.54%, #0D0898 50%);
+        }
+    }
+
+    .event-tet {
+        .top {
+            width: 120px;
+            font-size: 24px;
+
+            .title-top {
+                color: #1B75BC;
+                padding: 5px;
+                border-radius: 5px;
+                border: 1px solid #1B75BC;
+                background: linear-gradient(270deg, #FFFFFF 0%, #A0D5FF 100%);
+                box-shadow: 0px 4px 2px #1B75BC;
+
+                p {
+                    padding-left: 15px;
+                    text-align: right;
+                    margin-bottom: 0;
+                    font-family: 'Copperplate Gothic Bold', serif;
+                    font-weight: 700;
+                }
+            }
+
+            span {
+                font-family: "Be Vietnam";
+                color: #333333;
+                font-weight: 700;
+                font-size: 21px;
+                margin-top: 20px;
+            }
+        }
+
+        .icon {
+            width: 32px;
+            height: 32px;
+            color: white;
+            background: #1B75BC4D;
+            border-radius: 19px;
+            border: 1px solid #D6E7F5;
+
+            .fas {
+                width: 6px;
+            }
+        }
+
+        .customs {
+            font-family: 'Be Vietnam';
+            color: #333333;
+            width: 82px;
+            font-weight: 400;
+
+            img {
+                padding: 3px;
+                border: 1px solid #EBEBEB;
+                border-radius: 50%;
+                background-color: white;
+            }
+        }
+
+        :hover {
+            text-decoration: none;
+        }
+    }
+
+}
+
+.youth {
+    a {
+        font-family: 'Be Vietnam';
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            padding-top: 10px;
+            font-weight: 400;
+            font-size: 14px;
+            color: #666666;
+            margin-bottom: 0;
+        }
+
+        h6 {
+            padding-top: 10px;
+            font-weight: 700;
+            font-size: 24px;
+            color: #333333;
+        }
+    }
+
+    :hover {
+        text-decoration: none;
+    }
+}
+
+.new-information {
+    padding-top: 20px;
+
+    .heading {
+        position: relative;
+    }
+
+    .hrx {
+        width: 100%;
+        border-top-style: double;
+        color: #FFD2D2;
+        position: relative;
+    }
+
+    h4 {
+        width: auto;
+        font-weight: 700;
+        position: absolute;
+        color: #FF3333;
+        font-size: 28px;
+        top: -17px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        padding: 0 20px;
+        background-color: white;
+    }
+
+    .education {
+        .news-edu-hot {
+            border-right: 1px solid #E8E8E8;
+
+            a {
+                @include styleA;
+                height: 390px;
+
+                img {
+                    @include widthImg;
+                    height: 95%;
+                    border-radius: 15px 15px 0 0;
+                }
+
+                p {
+                    font-size: 22px;
+                    font-weight: 700;
+                    @include positionByP;
+                    background: linear-gradient(180deg, rgba(255, 51, 51, 0) 48.56%, #FF3333 90.68%);
+                }
+            }
+        }
+
+        .news-edu-detail {
+            border-right: 1px solid #E8E8E8;
+
+            a {
+                text-decoration: none;
+                display: flex;
+                color: #333333;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #E8E8E8;
+
+                img {
+                    width: 90px;
+                    height: 60px;
+                }
+
+                span {
+                    margin-left: 10px;
+                    font-family: 'Be Vietnam';
+                    font-weight: 400;
+                    font-size: 16px;
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;
+                    line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                }
+            }
+
+        }
+
+        :last-child {
+            border-right: none;
+        }
+    }
+}
+
+
+.physical {
+    padding-top: 20px;
+
+    .heading {
+        position: relative;
+    }
+
+    .hrx {
+        width: 100%;
+        border-top-style: double;
+        color: #FFD2D2;
+        position: relative;
+    }
+
+    h4 {
+        width: auto;
+        font-weight: 700;
+        position: absolute;
+        color: #FF3333;
+        font-size: 28px;
+        top: -17px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        padding: 0 20px;
+        background-color: white;
+    }
+
+    .education {
+        .news-edu-hot {
+            border-right: 1px solid #E8E8E8;
+
+            a {
+                @include styleA;
+                height: 390px;
+
+                img {
+                    @include widthImg;
+                    height: 95%;
+                    border-radius: 15px 15px 0 0;
+                }
+
+                p {
+                    font-size: 22px;
+                    font-weight: 700;
+                    @include positionByP;
+                    background: linear-gradient(180deg, rgba(255, 98, 0, 0) 48.56%, #FF6200 90.68%);
+                }
+            }
+        }
+
+        .news-edu-detail {
+            border-right: 1px solid #E8E8E8;
+
+            a {
+                text-decoration: none;
+                display: flex;
+                color: #333333;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #E8E8E8;
+
+                img {
+                    width: 90px;
+                    height: 60px;
+                }
+
+                span {
+                    margin-left: 10px;
+                    font-family: 'Be Vietnam';
+                    font-weight: 400;
+                    font-size: 16px;
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;
+                    line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                }
+            }
+        }
+
+        :last-child {
+            border-right: none;
+        }
+    }
+}
+
+.skill {
+    padding-top: 20px;
+
+    .heading {
+        position: relative;
+    }
+
+    .hrx {
+        width: 100%;
+        border-top-style: double;
+        color: #EDE2BA;
+        position: relative;
+    }
+
+    h4 {
+        width: auto;
+        font-weight: 700;
+        position: absolute;
+        color: #D8A800;
+        font-size: 28px;
+        top: -17px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        padding: 0 20px;
+        background-color: white;
+    }
+
+    .box-detail-skill {
+        font-family: 'Be Vietnam';
+
+        .is-details {
+            a {
+                text-decoration: none;
+                display: inline-block;
+                border-radius: 20px 20px 15px 15px;
+
+                img {
+                    width: 100%;
+                }
+
+                p {
+                    padding: 0 10px 0 10px;
+                    margin-top: 10px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #666666;
+                    margin-bottom: 3px;
+                }
+
+                h6 {
+                    padding: 0 10px 0 10px;
+                    font-size: 16px;
+                    color: #333333;
+                    font-weight: 700;
+                }
+
+                .detail {
+                    padding: 0 10px 0 10px;
+                    font-size: 16px;
+                    color: #333333;
+                }
+            }
+        }
+
+        .is-details:nth-child(1)a {
+            background-color: #FFEEEE;
+            border: 1px solid #FFD0D0;
+        }
+
+        .is-details:nth-child(2)a {
+            background-color: #FFFDE7;
+            border: 1px solid #F8EF91;
+        }
+
+        .is-details:nth-child(3)a {
+            background-color: #ECFBFF;
+            border: 1px solid #C5EDFF;
+        }
+    }
+
+}
+
+.context {
+    padding-top: 50px;
+
+    .heading {
+        position: relative;
+    }
+
+    .hrx {
+        width: 100%;
+        border-top-style: double;
+        color: #D3FCDF;
+        position: relative;
+    }
+
+    h4 {
+        width: auto;
+        font-weight: 700;
+        position: absolute;
+        color: #00BA36;
+        font-size: 28px;
+        top: -17px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        padding: 0 20px;
+        background-color: white;
+    }
+
+    .context-f {
+        a {
+            text-decoration: none;
+            font-family: 'Be Vietnam';
+            font-size: 16px;
+            font-weight: 700;
+            color: #333333;
+            line-height: 24px;
+
+            img {
+                width: 100%;
+            }
+
+            .p-header {
+                margin-top: 15px;
+                width: 100%;
+                height: 80px;
+                border-bottom: 1px solid #E8E8E8;
+            }
+
+            .p-body {
+                width: 100%;
+                height: 70px;
+                border-bottom: 1px solid #E8E8E8;
+            }
+
+            .p-footer {
+                width: 100%;
+                height: 70px;
+                border-bottom: 1px solid #E8E8E8;
+            }
+        }
+    }
+}
+
+.relate-to {
+    a {
+        text-decoration: none;
+        color: #333333;
+        font-family: 'Be Vietnam';
+
+        h3 {
+            padding-top: 10px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .p-head,
+        .p-body,
+        .p-footer {
+            width: 100%;
+            font-weight: 700;
+            font-size: 16px;
+            border-bottom: 1px solid #E8E8E8;
+        }
+
+        .p-head {
+            margin-top: 15px;
+            height: 80px;
+        }
+
+        .p-body {
+            height: 70px;
+        }
+
+        .p-footer {
+            height: 70px;
+        }
+    }
+
+    .col-12:nth-child(1) h3 {
+        color: #10A5E8;
+        border-top: 4px double #C5EDFF;
+    }
+
+    .col-12:nth-child(2) h3 {
+        border-top: 4px double #D6D4FF;
+        color: #0D0898;
+    }
+
+    .col-12:nth-child(3) h3 {
+        border-top: 4px double #F1D1FF;
+        color: #890CC2;
     }
 }
