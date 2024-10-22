@@ -119,17 +119,13 @@ nav {
             a {
                 color: black;
                 display: inline-block;
-
+                text-decoration:none;
                 .fas {
                     padding: 6px;
                     border: 1px solid #9E9205;
                     border-radius: 5px;
                     background-color: #FFF047;
                 }
-            }
-
-            &:hover {
-                color: black;
             }
         }
 
@@ -809,3 +805,263 @@ nav {
         color: #890CC2;
     }
 }
+
+
+.multimedias {
+    background: linear-gradient(180deg, #FFECEC 0%, #FFFFFF 100%);
+    width: 100%;
+    .hrx {
+        width: 100%;
+        border-top-style: double;
+        color: #FFD0D0;
+        position: relative;
+    }
+    h6{
+        font-family: 'Playfair Display';
+        padding-top: 15px;
+        font-weight: 700;
+        color: #dc211a;
+        font-size: 22px;
+    } 
+    .multimedias-body {
+        width: 100%;
+        padding-bottom: 25px;
+        border-bottom: 2px solid #E8E8E8;
+        position: relative;
+        .media {
+             a {
+                display: inline-block;
+                text-decoration: none;
+                img {
+                    width: 100%;
+                    position: relative;
+                }
+                .btn-media {
+                    position: absolute;
+                    width: 36px;
+                    height: 36px;
+                    background: #40404099;
+                    border-radius: 22px;
+                    left: 20px;
+                    bottom: calc(50% - 97px);
+                    .triangle {
+                        width: 0px;
+                        height: 0px;
+                        border-style: solid;
+                        border-width: 8px 0 8px 10px;
+                        border-color: transparent transparent transparent white;
+                        transform: rotate(0deg);
+                    }
+                }
+                h6 {
+                    font-family: 'Be Vietnam';
+                    font-size: 16px;
+                    color: #333333;
+                }
+            }
+        }
+        .pagination {
+            position: absolute;
+            left: calc(width -50%);
+            bottom: -12px;
+            .li-sum {
+                width: 54px;
+                height: 9px;
+                background-color: #FFB4B2;
+                border-radius: 10px;
+            }
+            .li-child {
+                width: 9px;
+                height: 9px;
+                background-color: #E8E8E8;
+                border-radius: 15px;
+            }
+        } 
+    }
+}
+
+.video{
+    border: 1px solid #E4E4E4;
+    border-radius: 7px;
+    .hrx {
+        width: 100%;
+        border-top-style: double;
+        color: #C4EDFF;
+        position: relative;
+        border-radius: 7px 7px 0 0 ;
+    }
+    h6 {
+        padding: 15px 0 0 15px;
+        font-family: 'Playfair Display';
+        color: #10A5E8;
+        font-size: 22px;
+    }
+    .education {
+        a {
+            display: inline-block;
+            position: relative;
+            text-decoration: none;
+            img {
+                width: 1108px;
+                border-radius: 5px;
+                position: relative;
+            }
+            .xem-media {
+                margin-left: 45px;
+                width: 550px;
+                position: absolute;
+                left: 0;
+                bottom: 46px;
+                color: white;
+                text-align: center;
+                font-family: 'Be Vietnam',sans-serif;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .nut-play {
+                    width: 50px;
+                    height: 50px;
+                    background-color: #10A5E8;
+                    border-radius: 28px;
+                    .triangle {
+                        width: 0px;
+                        height: 0px;
+                        border-style: solid;
+                        border-width: 9.5px 0 9.5px 16px;
+                        border-color: transparent transparent transparent white;
+                        transform: rotate(0deg);
+                     }
+                }
+                .xem-video {
+                   width: 114px;
+                    background-color: white;
+                    height: 32px;
+                    border-radius: 5px;
+                    p {
+                        color: black;
+                        margin-bottom: 0;
+                        font-size: 14px;
+                    }
+                    .triangle {
+                        width: 0px;
+                        height: 0px;
+                        border-style: solid;
+                        border-width: 7px 0 7px 10px;
+                        border-color: transparent transparent transparent black;
+                        transform: rotate(0deg);
+                     }
+                }
+            }
+
+            .video-head {
+                width: 225px;
+                position: absolute;
+                top: 20px;
+                right: 18px;
+                color: white;
+                .header-video  {
+                    h5 {
+                        margin-bottom: 0;
+                    }
+                    .arrow {
+                        li {
+                            display: inline-block;
+                            list-style: none;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 30px;
+                            height: 30px;
+                            background: #0000004D;
+                            border-radius: 20px;
+                            border: 1px solid;
+                        }
+                    }
+                }
+                .body-video {
+                   .genz{
+                    border-bottom: 1px solid #595658;
+                        img {
+                            width: 100%;
+                        }
+                        h5 {
+                            font-size: 16px;
+                            font-weight: 700;
+                        }
+                   }
+                   .shool {
+                        img {
+                            width: 100%;
+                        }
+                        h5 {
+                            font-size: 16px;
+                            font-weight: 700;
+                        }
+                   }
+                }
+            }
+        }
+    }
+}
+
+.banner-x {
+    img {
+        width: 100%;
+    }
+}
+
+footer {
+    font-family: 'Be Vietnam',sans-serif;
+    .f-banner {
+       width: 100%;
+       display: flex;
+       justify-content: center;
+        img {
+            width: 235px;
+        } 
+    }
+    .f-body {
+        h6 {
+            font-weight: 700;
+        }
+    }
+    .sign-in {
+        h6 {
+            font-weight: 700; 
+        }
+        span {
+            font-size: 11px;
+        }
+    }
+
+    .infor {
+        p {
+            font-size: 15px;
+        }
+    }
+    .contact {
+        .contact-call {
+            width: 156px;
+            height: 42px;
+            color: white;
+            background-color: #FF6200;
+            border-radius: 5px;
+        }
+    }
+    .emails {
+        input {
+            height: 42px;
+            border: 2px solid #FF6200;
+            border-radius: 5px 0 0 5px;
+        }
+        .fas {
+            color: white;
+            background-color: #FF6200;
+            padding: 12px;
+            border-radius: 0 5px 5px 0;
+        }
+    }
+}
+
+
+

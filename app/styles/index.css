@@ -75,15 +75,13 @@ nav .sider-bar .home {
 nav .sider-bar .home a {
   color: black;
   display: inline-block;
+  text-decoration: none;
 }
 nav .sider-bar .home a .fas {
   padding: 6px;
   border: 1px solid #9E9205;
   border-radius: 5px;
   background-color: #FFF047;
-}
-nav .sider-bar .home:hover {
-  color: black;
 }
 nav .sider-bar ul {
   display: flex;
@@ -750,4 +748,234 @@ nav .sider-bar .multimedia a .fas {
 .relate-to .col-12:nth-child(3) h3 {
   border-top: 4px double #F1D1FF;
   color: #890CC2;
+}
+
+.multimedias {
+  background: linear-gradient(180deg, #FFECEC 0%, #FFFFFF 100%);
+  width: 100%;
+}
+.multimedias .hrx {
+  width: 100%;
+  border-top-style: double;
+  color: #FFD0D0;
+  position: relative;
+}
+.multimedias h6 {
+  font-family: "Playfair Display";
+  padding-top: 15px;
+  font-weight: 700;
+  color: #dc211a;
+  font-size: 22px;
+}
+.multimedias .multimedias-body {
+  width: 100%;
+  padding-bottom: 25px;
+  border-bottom: 2px solid #E8E8E8;
+  position: relative;
+}
+.multimedias .multimedias-body .media a {
+  display: inline-block;
+  text-decoration: none;
+}
+.multimedias .multimedias-body .media a img {
+  width: 100%;
+  position: relative;
+}
+.multimedias .multimedias-body .media a .btn-media {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  background: rgba(64, 64, 64, 0.6);
+  border-radius: 22px;
+  left: 20px;
+  bottom: calc(50% - 97px);
+}
+.multimedias .multimedias-body .media a .btn-media .triangle {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 8px 0 8px 10px;
+  border-color: transparent transparent transparent white;
+  transform: rotate(0deg);
+}
+.multimedias .multimedias-body .media a h6 {
+  font-family: "Be Vietnam";
+  font-size: 16px;
+  color: #333333;
+}
+.multimedias .multimedias-body .pagination {
+  position: absolute;
+  left: calc(width -50%);
+  bottom: -12px;
+}
+.multimedias .multimedias-body .pagination .li-sum {
+  width: 54px;
+  height: 9px;
+  background-color: #FFB4B2;
+  border-radius: 10px;
+}
+.multimedias .multimedias-body .pagination .li-child {
+  width: 9px;
+  height: 9px;
+  background-color: #E8E8E8;
+  border-radius: 15px;
+}
+
+.video {
+  border: 1px solid #E4E4E4;
+  border-radius: 7px;
+}
+.video .hrx {
+  width: 100%;
+  border-top-style: double;
+  color: #C4EDFF;
+  position: relative;
+  border-radius: 7px 7px 0 0;
+}
+.video h6 {
+  padding: 15px 0 0 15px;
+  font-family: "Playfair Display";
+  color: #10A5E8;
+  font-size: 22px;
+}
+.video .education a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+.video .education a img {
+  width: 1108px;
+  border-radius: 5px;
+  position: relative;
+}
+.video .education a .xem-media {
+  margin-left: 45px;
+  width: 550px;
+  position: absolute;
+  left: 0;
+  bottom: 46px;
+  color: white;
+  text-align: center;
+  font-family: "Be Vietnam", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.video .education a .xem-media .nut-play {
+  width: 50px;
+  height: 50px;
+  background-color: #10A5E8;
+  border-radius: 28px;
+}
+.video .education a .xem-media .nut-play .triangle {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 9.5px 0 9.5px 16px;
+  border-color: transparent transparent transparent white;
+  transform: rotate(0deg);
+}
+.video .education a .xem-media .xem-video {
+  width: 114px;
+  background-color: white;
+  height: 32px;
+  border-radius: 5px;
+}
+.video .education a .xem-media .xem-video p {
+  color: black;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.video .education a .xem-media .xem-video .triangle {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 7px 0 7px 10px;
+  border-color: transparent transparent transparent black;
+  transform: rotate(0deg);
+}
+.video .education a .video-head {
+  width: 225px;
+  position: absolute;
+  top: 20px;
+  right: 18px;
+  color: white;
+}
+.video .education a .video-head .header-video h5 {
+  margin-bottom: 0;
+}
+.video .education a .video-head .header-video .arrow li {
+  display: inline-block;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.3019607843);
+  border-radius: 20px;
+  border: 1px solid;
+}
+.video .education a .video-head .body-video .genz {
+  border-bottom: 1px solid #595658;
+}
+.video .education a .video-head .body-video .genz img {
+  width: 100%;
+}
+.video .education a .video-head .body-video .genz h5 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.video .education a .video-head .body-video .shool img {
+  width: 100%;
+}
+.video .education a .video-head .body-video .shool h5 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.banner-x img {
+  width: 100%;
+}
+
+footer {
+  font-family: "Be Vietnam", sans-serif;
+}
+footer .f-banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer .f-banner img {
+  width: 235px;
+}
+footer .f-body h6 {
+  font-weight: 700;
+}
+footer .sign-in h6 {
+  font-weight: 700;
+}
+footer .sign-in span {
+  font-size: 11px;
+}
+footer .infor p {
+  font-size: 15px;
+}
+footer .contact .contact-call {
+  width: 156px;
+  height: 42px;
+  color: white;
+  background-color: #FF6200;
+  border-radius: 5px;
+}
+footer .emails input {
+  height: 42px;
+  border: 2px solid #FF6200;
+  border-radius: 5px 0 0 5px;
+}
+footer .emails .fas {
+  color: white;
+  background-color: #FF6200;
+  padding: 12px;
+  border-radius: 0 5px 5px 0;
 }/*# sourceMappingURL=index.css.map */
