@@ -939,6 +939,7 @@ nav .sider-bar .multimedia a .fas {
 }
 
 footer {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFFEF5 46.5%);
   font-family: "Be Vietnam", sans-serif;
 }
 footer .f-banner {
