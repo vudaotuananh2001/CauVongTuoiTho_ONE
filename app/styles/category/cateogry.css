@@ -146,12 +146,13 @@ nav .sider-bar .multimedia a .fas {
 .hagtag a {
   text-decoration: none;
 }
-.hagtag .trendding .fas {
-  padding: 5px;
-  background-color: #DAEFFF;
-  border-radius: 20px;
-  color: #1B75BC;
-  margin-right: 10px;
+.hagtag .trendding img {
+  width: 22px;
+  height: 22px;
+}
+.hagtag .trendding span {
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .header-category {

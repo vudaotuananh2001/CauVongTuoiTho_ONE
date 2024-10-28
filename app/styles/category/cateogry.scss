@@ -176,12 +176,14 @@ nav {
         text-decoration: none;
     }
     .trendding {
-        .fas {
-            padding: 5px;
-            background-color: #DAEFFF;
-            border-radius: 20px;
-            color: #1B75BC;
-            margin-right: 10px;
+        img {
+            width: 22px;
+            height: 22px;
+        }
+
+        span {
+            font-size: 12px;
+            font-weight: 400;
         }
     }
 }

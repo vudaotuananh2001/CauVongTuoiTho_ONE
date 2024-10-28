@@ -226,16 +226,14 @@ nav {
         height: 22px;
 
         .trendding {
-            .fas {
-                padding: 5px;
-                background-color: #DAEFFF;
-                border-radius: 20px;
-                color: #1B75BC;
-                margin-right: 10px;
+            img {
+                width: 22px;
+                height: 22px;
             }
 
             span {
                 font-size: 12px;
+                font-weight: 400;
             }
         }
 
@@ -455,7 +453,7 @@ nav {
         position: absolute;
         color: #FF3333;
         font-size: 28px;
-        top: -17px;
+        top: -18px;
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
@@ -942,6 +940,25 @@ nav {
                     transform: rotate(0deg);
                 }
             }
+
+            .xem-video{
+                background-color: white;
+                border-radius: 7px;
+                padding: 5px 7px 5px 7px;
+                .triangle{
+                    width: 0px;
+                    height: 0px;
+                    border-style: solid;
+                    border-width: 6.5px 10px 6.5px 12px;
+                    border-color: transparent transparent transparent black;
+                    transform: rotate(0deg); 
+                }
+                p {
+                    font-size: 14px;
+                    margin-bottom: 0;
+                    color: black;
+                }
+            }
         }
 
         .the-media-header {
@@ -1056,12 +1073,16 @@ footer {
     }
     .f-body {
         h6 {
+            font-size: 16px;
             font-weight: 700;
+            color: #000000;
         }
     }
     .sign-in {
         h6 {
             font-weight: 700; 
+            font-size: 16px;
+            color: #000000;
         }
         span {
             font-size: 11px;
@@ -1078,24 +1099,74 @@ footer {
             width: 156px;
             height: 42px;
             color: white;
-            background-color: #FF6200;
+            background-color: #1B75BC;
             border-radius: 5px;
+            .fas {
+                font-size: 13px;
+            }
         }
+       
     }
     .emails {
-        input {
-            height: 42px;
-            border: 2px solid #FF6200;
-            border-radius: 5px 0 0 5px;
+        form {
+            input {
+                width: 100%;
+                height: 42px;
+                border: 2px solid #1B75BC;
+                border-radius: 5px 0 0 5px;
+            }
+            .fas {
+                color: white;
+                background-color: #1B75BC;
+                padding: 12px;
+                border-radius: 0 5px 5px 0;
+            }
         }
-        .fas {
-            color: white;
-            background-color: #FF6200;
-            padding: 12px;
-            border-radius: 0 5px 5px 0;
+        .inpput-authur {
+            padding: 7px;
+            border: 1px solid #EEC9FF;
+            border-radius: 7px;
+            img {
+                width: 25px;
+            }
+            span {
+                font-family: 'Be VietNam';
+                font-weight: 700;
+                font-size: 18px;
+                color: #502986;
+            }
+        }
+        
+    }
+    .authur {
+        border-top: 1px solid #ECE9C2;
+        width: 100%;
+        height: 40px;
+        ul {
+            font-family: 'Be VietNam', serif;
+            margin-bottom: 0;
+            li {
+                list-style: none;
+                border-right: 1px solid;
+                a {
+                    font-size: 15px;
+                    text-decoration: none;
+                    padding-right: 10px;
+                    padding-left: 10px;
+                    color: #000000;
+                }
+            }
+            li:last-child{
+                border-right: none;
+            }
+        }
+        
+        p {
+            padding-top: 8px;
+            margin-bottom: 0;
+            font-size: 11px;
         }
     }
 }
-
 
 
