@@ -58,7 +58,7 @@ header {
             align-items: center;
 
             .dayOfWeek {
-                font-family: 'Be Vietnam';
+                font-family: 'Be Vietnam', serif;
                 display: flex;
                 align-items: center;
 
@@ -70,6 +70,7 @@ header {
                 p {
                     font-size: 16px;
                     margin-bottom: 0;
+                    font-weight: 700 ;
                 }
             }
         }
@@ -106,7 +107,8 @@ nav {
     display: flex;
     align-items: center;
     border: 1px solid #FFF047;
-
+    font-family: 'Be Vietnam';
+    font-weight: 700;
     .sider-bar {
         display: flex;
         align-items: center;
@@ -133,7 +135,7 @@ nav {
             display: flex;
             align-items: center;
             font-family: 'Be Vietnam';
-            font-size: 17px;
+            font-size: 14px;
 
             li {
                 margin-top: 13px;
@@ -214,14 +216,14 @@ nav {
     width: 100%;
     padding-bottom: 27px;
     border-bottom: 1px solid #92CFFF;
-
+    font-family: 'Be Vietnam';
     .hagtag {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        font-family: 'Be Vietnam';
-        height: 27px;
+        font-family: 'Be Vietnam', serif;
+        height: 22px;
 
         .trendding {
             .fas {
@@ -233,7 +235,7 @@ nav {
             }
 
             span {
-                font-size: 13px;
+                font-size: 12px;
             }
         }
 
@@ -249,11 +251,13 @@ nav {
                 @include styleA;
 
                 img {
+                   
                     @include widthImg;
+                    
                 }
 
                 p {
-                    font-size: 17px;
+                    font-size: 16px;
                     font-weight: 700;
                     @include positionByP;
                     background: linear-gradient(180deg, rgba(80, 41, 134, 0) 14.54%, #502986 50%);
@@ -269,13 +273,14 @@ nav {
                     @include widthImg;
                     border-radius: 15px 15px 15px 15px;
                     height: 100%;
+                    object-fit: fill;
                 }
 
                 p {
-                    font-size: 17px;
+                    font-size: 20px;
                     font-weight: 700;
                     @include positionByP;
-                    background: linear-gradient(180deg, rgba(255, 98, 0, 0) 48.56%, #FF6200 90.68%);
+                    background: linear-gradient(180deg, rgba(255, 98, 0, 0) 2.56%, #FF6200 90.68%);
                 }
             }
         }
@@ -420,7 +425,7 @@ nav {
         h6 {
             padding-top: 10px;
             font-weight: 700;
-            font-size: 24px;
+            font-size: 16px;
             color: #333333;
         }
     }
@@ -772,7 +777,7 @@ nav {
         .p-footer {
             width: 100%;
             font-weight: 700;
-            font-size: 16px;
+            font-size: 15px;
             border-bottom: 1px solid #E8E8E8;
         }
 
@@ -808,7 +813,6 @@ nav {
 
 
 .multimedias {
-    background: linear-gradient(180deg, #FFECEC 0%, #FFFFFF 100%);
     width: 100%;
     .hrx {
         width: 100%;
@@ -843,7 +847,7 @@ nav {
                     background: #40404099;
                     border-radius: 22px;
                     left: 20px;
-                    bottom: calc(50% - 97px);
+                    bottom: calc(50% - 88px);
                     .triangle {
                         width: 0px;
                         height: 0px;
@@ -897,110 +901,139 @@ nav {
         font-size: 22px;
     }
     .education {
-        a {
-            display: inline-block;
-            position: relative;
-            text-decoration: none;
-            img {
-                width: 1108px;
-                border-radius: 5px;
-                position: relative;
-            }
-            .xem-media {
-                margin-left: 45px;
-                width: 550px;
-                position: absolute;
-                left: 0;
-                bottom: 46px;
+       width: 100%;
+       height: 675px;
+       background-image:url('../public/images/sat-lo-thanh-hoa-1-edited-1727172409302.png') ;
+       background-size: cover;
+       background-position: center;
+       border-radius: 10px;
+       .xem-media {
+        width: 97.5%;
+        height: 60%;
+        position: absolute;
+        border-radius: 0 0 7px 7px;
+        left: 0;
+        bottom: 0;
+        margin-left: 14px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0.96%, #1B75BC 100%);
+            .xem-media-infor {
+                width: 70%;
+                left: 22px;
+                bottom: 35px;
                 color: white;
+                position: absolute;
                 text-align: center;
                 font-family: 'Be Vietnam',sans-serif;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                .nut-play {
-                    width: 50px;
-                    height: 50px;
-                    background-color: #10A5E8;
-                    border-radius: 28px;
-                    .triangle {
-                        width: 0px;
-                        height: 0px;
-                        border-style: solid;
-                        border-width: 9.5px 0 9.5px 16px;
-                        border-color: transparent transparent transparent white;
-                        transform: rotate(0deg);
-                     }
-                }
-                .xem-video {
-                   width: 114px;
-                    background-color: white;
-                    height: 32px;
-                    border-radius: 5px;
-                    p {
-                        color: black;
-                        margin-bottom: 0;
-                        font-size: 14px;
-                    }
-                    .triangle {
-                        width: 0px;
-                        height: 0px;
-                        border-style: solid;
-                        border-width: 7px 0 7px 10px;
-                        border-color: transparent transparent transparent black;
-                        transform: rotate(0deg);
-                     }
-                }
             }
-
-            .video-head {
-                width: 225px;
-                position: absolute;
-                top: 20px;
-                right: 18px;
-                color: white;
-                .header-video  {
-                    h5 {
-                        margin-bottom: 0;
-                    }
-                    .arrow {
-                        li {
-                            display: inline-block;
-                            list-style: none;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            width: 30px;
-                            height: 30px;
-                            background: #0000004D;
-                            border-radius: 20px;
-                            border: 1px solid;
-                        }
-                    }
-                }
-                .body-video {
-                   .genz{
-                    border-bottom: 1px solid #595658;
-                        img {
-                            width: 100%;
-                        }
-                        h5 {
-                            font-size: 16px;
-                            font-weight: 700;
-                        }
-                   }
-                   .shool {
-                        img {
-                            width: 100%;
-                        }
-                        h5 {
-                            font-size: 16px;
-                            font-weight: 700;
-                        }
-                   }
+            .nut-play {
+                width: 50px;
+                height: 50px;
+                background-color: #10A5E8;
+                border-radius: 28px;
+                .triangle {
+                    width: 0px;
+                    height: 0px;
+                    border-style: solid;
+                    border-width: 9.5px 0 9.5px 16px;
+                    border-color: transparent transparent transparent white;
+                    transform: rotate(0deg);
                 }
             }
         }
+
+        .the-media-header {
+        font-family: 'Be Vietnam',sans-serif;
+          position: absolute;
+          right: 32px;
+          color: white; 
+          width: 260px;
+          height: 32px;
+          top: 75px;
+
+          .is-headerss {
+            h5 {
+                font-family: 'Noto Serif',serif;
+                text-transform: uppercase;
+                margin-bottom: 0;
+              }
+              .arrow {
+                li {
+                    list-style: none;
+                    .fas {
+                       width: 32px;
+                       height: 32px;
+                       text-align: center;
+                       padding-top: 7px;
+                        border: 1px solid;  
+                        border-radius: 20px;
+                    }
+                }
+              }
+          }
+        }
+        .is-bodyss {
+            .genz {
+                padding-bottom: 20px;
+                border-bottom: 1px solid;
+                position: relative;
+                h5 {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                .play-videos {
+                    width: 36px;
+                    height: 36px;
+                    background-color: #1B75BC;
+                    text-align: center;
+                    border-radius: 20px;
+                    position: absolute;
+                    bottom: 81px;
+                    left: 10px;
+                    .triangle {
+                        width: 0px;
+                        height: 0px;
+                        border-style: solid;
+                        border-width: 8px 0 8px 10px;
+                        border-color: transparent transparent transparent white;
+                        transform: rotate(0deg);
+                    }
+                }
+               
+            }
+
+            .shool {
+                padding-bottom: 20px;
+                position: relative;
+                h5 {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                .play-videos {
+                    width: 36px;
+                    height: 36px;
+                    background-color: #1B75BC;
+                    text-align: center;
+                    border-radius: 20px;
+                    position: absolute;
+                    bottom: 81px;
+                    left: 10px;
+                    .triangle {
+                        width: 0px;
+                        height: 0px;
+                        border-style: solid;
+                        border-width: 8px 0 8px 10px;
+                        border-color: transparent transparent transparent white;
+                        transform: rotate(0deg);
+                    }
+                }
+            }
+        }
+        
     }
 }
 

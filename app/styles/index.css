@@ -25,7 +25,7 @@ header .banner-header .infor-dayOffWeek {
   align-items: center;
 }
 header .banner-header .infor-dayOffWeek .dayOfWeek {
-  font-family: "Be Vietnam";
+  font-family: "Be Vietnam", serif;
   display: flex;
   align-items: center;
 }
@@ -36,6 +36,7 @@ header .banner-header .infor-dayOffWeek .dayOfWeek .fas {
 header .banner-header .infor-dayOffWeek .dayOfWeek p {
   font-size: 16px;
   margin-bottom: 0;
+  font-weight: 700;
 }
 header .banner-header .weather {
   font-family: "Be Vietnam";
@@ -62,6 +63,8 @@ nav {
   display: flex;
   align-items: center;
   border: 1px solid #FFF047;
+  font-family: "Be Vietnam";
+  font-weight: 700;
 }
 nav .sider-bar {
   display: flex;
@@ -87,7 +90,7 @@ nav .sider-bar ul {
   display: flex;
   align-items: center;
   font-family: "Be Vietnam";
-  font-size: 17px;
+  font-size: 14px;
 }
 nav .sider-bar ul li {
   margin-top: 13px;
@@ -151,14 +154,15 @@ nav .sider-bar .multimedia a .fas {
   width: 100%;
   padding-bottom: 27px;
   border-bottom: 1px solid #92CFFF;
+  font-family: "Be Vietnam";
 }
 .box-body .hagtag {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  font-family: "Be Vietnam";
-  height: 27px;
+  font-family: "Be Vietnam", serif;
+  height: 22px;
 }
 .box-body .hagtag .trendding .fas {
   padding: 5px;
@@ -168,7 +172,7 @@ nav .sider-bar .multimedia a .fas {
   margin-right: 10px;
 }
 .box-body .hagtag .trendding span {
-  font-size: 13px;
+  font-size: 12px;
 }
 .box-body .hagtag a {
   text-decoration: none;
@@ -187,7 +191,7 @@ nav .sider-bar .multimedia a .fas {
   position: relative;
 }
 .box-body .content .is-content-left a p {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   width: 100%;
@@ -220,9 +224,11 @@ nav .sider-bar .multimedia a .fas {
   position: relative;
   border-radius: 15px 15px 15px 15px;
   height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 .box-body .content .is-content-center a p {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 700;
   position: absolute;
   width: 100%;
@@ -240,7 +246,7 @@ nav .sider-bar .multimedia a .fas {
   font-family: "Be Vietnam";
   font-weight: 700;
   padding-bottom: 10px;
-  background: linear-gradient(180deg, rgba(255, 98, 0, 0) 48.56%, #FF6200 90.68%);
+  background: linear-gradient(180deg, rgba(255, 98, 0, 0) 2.56%, #FF6200 90.68%);
 }
 .box-body .content .is-content-right a {
   text-decoration: none;
@@ -391,7 +397,7 @@ nav .sider-bar .multimedia a .fas {
 .youth a h6 {
   padding-top: 10px;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 16px;
   color: #333333;
 }
 .youth :hover {
@@ -724,7 +730,7 @@ nav .sider-bar .multimedia a .fas {
 .relate-to a .p-footer {
   width: 100%;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 15px;
   border-bottom: 1px solid #E8E8E8;
 }
 .relate-to a .p-head {
@@ -751,7 +757,6 @@ nav .sider-bar .multimedia a .fas {
 }
 
 .multimedias {
-  background: linear-gradient(180deg, #FFECEC 0%, #FFFFFF 100%);
   width: 100%;
 }
 .multimedias .hrx {
@@ -788,7 +793,7 @@ nav .sider-bar .multimedia a .fas {
   background: rgba(64, 64, 64, 0.6);
   border-radius: 22px;
   left: 20px;
-  bottom: calc(50% - 97px);
+  bottom: calc(50% - 88px);
 }
 .multimedias .multimedias-body .media a .btn-media .triangle {
   width: 0px;
@@ -838,36 +843,43 @@ nav .sider-bar .multimedia a .fas {
   color: #10A5E8;
   font-size: 22px;
 }
-.video .education a {
-  display: inline-block;
-  position: relative;
-  text-decoration: none;
+.video .education {
+  width: 100%;
+  height: 675px;
+  background-image: url("../public/images/sat-lo-thanh-hoa-1-edited-1727172409302.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
 }
-.video .education a img {
-  width: 1108px;
-  border-radius: 5px;
-  position: relative;
-}
-.video .education a .xem-media {
-  margin-left: 45px;
-  width: 550px;
+.video .education .xem-media {
+  width: 97.5%;
+  height: 60%;
   position: absolute;
+  border-radius: 0 0 7px 7px;
   left: 0;
-  bottom: 46px;
+  bottom: 0;
+  margin-left: 14px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0.96%, #1B75BC 100%);
+}
+.video .education .xem-media .xem-media-infor {
+  width: 70%;
+  left: 22px;
+  bottom: 35px;
   color: white;
+  position: absolute;
   text-align: center;
   font-family: "Be Vietnam", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.video .education a .xem-media .nut-play {
+.video .education .xem-media .nut-play {
   width: 50px;
   height: 50px;
   background-color: #10A5E8;
   border-radius: 28px;
 }
-.video .education a .xem-media .nut-play .triangle {
+.video .education .xem-media .nut-play .triangle {
   width: 0px;
   height: 0px;
   border-style: solid;
@@ -875,63 +887,85 @@ nav .sider-bar .multimedia a .fas {
   border-color: transparent transparent transparent white;
   transform: rotate(0deg);
 }
-.video .education a .xem-media .xem-video {
-  width: 114px;
-  background-color: white;
+.video .education .the-media-header {
+  font-family: "Be Vietnam", sans-serif;
+  position: absolute;
+  right: 32px;
+  color: white;
+  width: 260px;
   height: 32px;
-  border-radius: 5px;
+  top: 75px;
 }
-.video .education a .xem-media .xem-video p {
-  color: black;
+.video .education .the-media-header .is-headerss h5 {
+  font-family: "Noto Serif", serif;
+  text-transform: uppercase;
   margin-bottom: 0;
-  font-size: 14px;
 }
-.video .education a .xem-media .xem-video .triangle {
+.video .education .the-media-header .is-headerss .arrow li {
+  list-style: none;
+}
+.video .education .the-media-header .is-headerss .arrow li .fas {
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  padding-top: 7px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+.video .education .is-bodyss .genz {
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+  position: relative;
+}
+.video .education .is-bodyss .genz h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.video .education .is-bodyss .genz .play-videos {
+  width: 36px;
+  height: 36px;
+  background-color: #1B75BC;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 81px;
+  left: 10px;
+}
+.video .education .is-bodyss .genz .play-videos .triangle {
   width: 0px;
   height: 0px;
   border-style: solid;
-  border-width: 7px 0 7px 10px;
-  border-color: transparent transparent transparent black;
+  border-width: 8px 0 8px 10px;
+  border-color: transparent transparent transparent white;
   transform: rotate(0deg);
 }
-.video .education a .video-head {
-  width: 225px;
-  position: absolute;
-  top: 20px;
-  right: 18px;
-  color: white;
+.video .education .is-bodyss .shool {
+  padding-bottom: 20px;
+  position: relative;
 }
-.video .education a .video-head .header-video h5 {
-  margin-bottom: 0;
+.video .education .is-bodyss .shool h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
 }
-.video .education a .video-head .header-video .arrow li {
-  display: inline-block;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  background: rgba(0, 0, 0, 0.3019607843);
+.video .education .is-bodyss .shool .play-videos {
+  width: 36px;
+  height: 36px;
+  background-color: #1B75BC;
+  text-align: center;
   border-radius: 20px;
-  border: 1px solid;
+  position: absolute;
+  bottom: 81px;
+  left: 10px;
 }
-.video .education a .video-head .body-video .genz {
-  border-bottom: 1px solid #595658;
-}
-.video .education a .video-head .body-video .genz img {
-  width: 100%;
-}
-.video .education a .video-head .body-video .genz h5 {
-  font-size: 16px;
-  font-weight: 700;
-}
-.video .education a .video-head .body-video .shool img {
-  width: 100%;
-}
-.video .education a .video-head .body-video .shool h5 {
-  font-size: 16px;
-  font-weight: 700;
+.video .education .is-bodyss .shool .play-videos .triangle {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 8px 0 8px 10px;
+  border-color: transparent transparent transparent white;
+  transform: rotate(0deg);
 }
 
 .banner-x img {
