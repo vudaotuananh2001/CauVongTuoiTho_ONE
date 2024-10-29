@@ -257,7 +257,7 @@ nav .sider-bar .multimedia a .fas {
 }
 
 .shoool {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   border-bottom: 1px dashed #FFD2D2;
 }
 .shoool .hr-edu {
@@ -430,12 +430,18 @@ footer .contact .contact-call {
   background-color: #FF6200;
   border-radius: 5px;
 }
-footer .emails input {
+footer .contact .contact-call .fas {
+  font-size: 13px;
+}
+footer .emails form {
+  margin-top: 23px;
+}
+footer .emails form input {
   height: 42px;
   border: 2px solid #FF6200;
   border-radius: 5px 0 0 5px;
 }
-footer .emails .fas {
+footer .emails form .fas {
   color: white;
   background-color: #FF6200;
   padding: 12px;
@@ -443,14 +449,29 @@ footer .emails .fas {
 }
 footer .authur {
   border-top: 1px solid #ECE9C2;
+  width: 100%;
+  height: 40px;
+}
+footer .authur ul {
+  font-family: "Be VietNam", serif;
+  margin-bottom: 0;
 }
 footer .authur ul li {
   list-style: none;
-  padding: 8px;
 }
 footer .authur ul li a {
+  font-size: 15px;
   text-decoration: none;
+  padding-right: 10px;
+  padding-left: 10px;
   color: #000000;
+  border-right: 1px solid;
+}
+footer .authur ul li:last-child a {
+  border-right: none;
+}
+footer .authur ul li:first-child a {
+  padding-left: 0;
 }
 footer .authur p {
   padding-top: 8px;

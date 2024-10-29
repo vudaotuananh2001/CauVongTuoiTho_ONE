@@ -299,7 +299,7 @@ nav {
 }
 
 .shoool {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     border-bottom: 1px dashed #FFD2D2;
     .hr-edu {
         width: 100%;
@@ -495,31 +495,49 @@ footer {
             color: white;
             background-color: #FF6200;
             border-radius: 5px;
+            .fas {
+                font-size: 13px;
+            }
         }
+       
     }
     .emails {
-        input {
-            height: 42px;
-            border: 2px solid #FF6200;
-            border-radius: 5px 0 0 5px;
-        }
-        .fas {
-            color: white;
-            background-color: #FF6200;
-            padding: 12px;
-            border-radius: 0 5px 5px 0;
+        form {
+            margin-top: 23px;
+            input {
+                height: 42px;
+                border: 2px solid #FF6200;
+                border-radius: 5px 0 0 5px;
+            }
+            .fas {
+                color: white;
+                background-color: #FF6200;
+                padding: 12px;
+                border-radius: 0 5px 5px 0;
+            }
         }
     }
     .authur {
-    border-top: 1px solid #ECE9C2;
+        border-top: 1px solid #ECE9C2;
+        width: 100%;
+        height: 40px;
         ul {
+            font-family: 'Be VietNam', serif;
+            margin-bottom: 0;
             li {
-                a {
-                    text-decoration: none;
-                    color: #000000;
-                }
                 list-style: none;
-                padding: 8px;
+                a {
+                    font-size: 15px;
+                    text-decoration: none;
+                    padding-right: 10px;
+                    padding-left: 10px;
+                    color: #000000;
+                    border-right: 1px solid;
+                } &:last-child a {
+                    border-right: none;
+                } &:first-child a {
+                    padding-left: 0;
+                }
             }
         }
         p {
